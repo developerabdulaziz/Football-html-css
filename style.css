@@ -13,10 +13,10 @@ body {
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
 }
-main {
+/* main {
     display: flex;
     flex-direction: column;
-}
+} */
 /*======================= Banners ======================*/
 .header {
     margin-bottom: 70px;
@@ -56,5 +56,17 @@ h1 {
     background-color: #F4BE2C;
     font-weight: bold;
 }
-/*======================= Google Fonts Popins ======================*/
+/*======================= Gallary Section =========================*/
+.gallary-parents {
+
+}
+.gallary-area {
+
+}
+.gallary {
+
+}
+.gallary-detail img {
+
+}
 /*======================= Google Fonts Popins ======================*/
