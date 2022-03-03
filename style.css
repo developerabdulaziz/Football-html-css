@@ -1,0 +1,60 @@
+/*======================= Google Fonts Popins ======================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+/*======================= Banners ======================*/
+.header {
+    margin-bottom: 70px;
+}
+.banners {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    padding-top: 135px;
+    padding-bottom: 86px;
+}
+h1 {
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+.image img {
+    width: 556.01px;
+    height: 438px;
+    padding-left: 102px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color: #D82E2F;
+    padding: 10px 50px;
+    border-radius: 8px;
+    transition: all linear 1s;
+    letter-spacing: 1px;
+}
+.button:hover {
+    color: black;
+    background-color: #F4BE2C;
+    font-weight: bold;
+}
+/*======================= Google Fonts Popins ======================*/
+/*======================= Google Fonts Popins ======================*/
