@@ -160,3 +160,47 @@ span {
     transition: all linear 1s; 
 }
 
+/*=============================== media quarey for Mobile phone device ===================================*/
+@media only screen and (max-width: 688px) {
+    /*===== header section =====*/
+    .banners {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner{
+        padding-left: 100px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    /*========== Gallary ===========*/
+    .gallary-area {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /*=========== Heighlite  =========*/
+    .highlites {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlite-details p{
+        width: 100%;
+        text-align: left;
+        font-size: 25px;
+        /* color: #c44171; */
+        margin-bottom: 20px;
+    }
+    .highlite-photo{
+        width: 50%;
+        margin-top: 20px;
+    }
+    /*=========== Coach setion   =========*/
+    .coacher{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 50px;
+    }
+     /*=========== Footer  =========*/
+    .footer-items {
+        margin-left: 80px;
+    }
+}
