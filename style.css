@@ -124,7 +124,7 @@ h1 {
     /* border: 1px solid rgb(7, 154, 212); */
     box-shadow: 5px 5px 45px;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
 }
 .single-coach img {
     /* width: 200px; */
@@ -135,3 +135,28 @@ span {
     color: green;
     font-size: 13px;
 }
+
+/*================================ Footer ========================== */
+.footer-items {
+    text-align: center;
+    padding: 40px 0;
+    line-height: 20px;
+}
+.footer-items img {
+    width: 40%;
+    margin-bottom: 20px;
+}
+.p {
+    font-size: 18px;
+}
+.footer-icon {
+    margin: 0 30px;
+    word-spacing: 14px;
+    font-size: 20px;
+}
+.footer-icon a:hover {
+    color: rgb(28, 209, 209);
+    border-radius: 10px;
+    transition: all linear 1s; 
+}
+
