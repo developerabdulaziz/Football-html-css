@@ -13,10 +13,10 @@ body {
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
 }
-/* main {
+main {
     display: flex;
     flex-direction: column;
-} */
+}
 /*======================= Banners ======================*/
 .header {
     margin-bottom: 70px;
@@ -58,15 +58,23 @@ h1 {
 }
 /*======================= Gallary Section =========================*/
 .gallary-parents {
-
+    margin: 0 auto;
 }
 .gallary-area {
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
 }
 .gallary {
-
+    width: 300px;
+    background-color: whitesmoke;
+    padding: 15px;
 }
 .gallary-detail img {
-
+    width: 100%;
+    font-weight: bold;
+    font-size: 28px;
 }
+
 /*======================= Google Fonts Popins ======================*/
